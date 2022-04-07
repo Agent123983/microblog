@@ -1,0 +1,66 @@
+Microblog startup
+Exception on /edit_profile [GET]
+Traceback (most recent call last):
+  File "/home/cj_laptop/microblog/venv/lib/python3.9/site-packages/flask_login/utils.py", line 277, in decorated_view
+    return current_app.ensure_sync(func)(*args, **kwargs)
+  File "/home/cj_laptop/microblog/app/routes.py", line 88, in edit_profile
+    form = EditProfileForm(current_user.username)
+  File "/home/cj_laptop/microblog/venv/lib/python3.9/site-packages/wtforms/form.py", line 208, in __call__
+    return type.__call__(cls, *args, **kwargs)
+  File "/home/cj_laptop/microblog/app/forms.py", line 39, in __init__
+    super(EditProfileForm, self).__init(*args, **kwargs)
+AttributeError: 'super' object has no attribute '_EditProfileForm__init'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/cj_laptop/microblog/venv/lib/python3.9/site-packages/flask/app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/cj_laptop/microblog/venv/lib/python3.9/site-packages/flask/app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/cj_laptop/microblog/venv/lib/python3.9/site-packages/flask/app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/cj_laptop/microblog/venv/lib/python3.9/site-packages/flask/app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/cj_laptop/microblog/venv/lib/python3.9/site-packages/flask_login/utils.py", line 279, in decorated_view
+    return func(*args, **kwargs)
+  File "/home/cj_laptop/microblog/app/routes.py", line 88, in edit_profile
+    form = EditProfileForm(current_user.username)
+  File "/home/cj_laptop/microblog/venv/lib/python3.9/site-packages/wtforms/form.py", line 208, in __call__
+    return type.__call__(cls, *args, **kwargs)
+  File "/home/cj_laptop/microblog/app/forms.py", line 39, in __init__
+    super(EditProfileForm, self).__init(*args, **kwargs)
+AttributeError: 'super' object has no attribute '_EditProfileForm__init'
+Exception on /edit_profile [GET]
+Traceback (most recent call last):
+  File "/home/cj_laptop/microblog/venv/lib/python3.9/site-packages/flask_login/utils.py", line 277, in decorated_view
+    return current_app.ensure_sync(func)(*args, **kwargs)
+  File "/home/cj_laptop/microblog/app/routes.py", line 88, in edit_profile
+    form = EditProfileForm(current_user.username)
+  File "/home/cj_laptop/microblog/venv/lib/python3.9/site-packages/wtforms/form.py", line 208, in __call__
+    return type.__call__(cls, *args, **kwargs)
+  File "/home/cj_laptop/microblog/app/forms.py", line 39, in __init__
+    super(EditProfileForm, self).__init(*args, **kwargs)
+AttributeError: 'super' object has no attribute '_EditProfileForm__init'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/cj_laptop/microblog/venv/lib/python3.9/site-packages/flask/app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/cj_laptop/microblog/venv/lib/python3.9/site-packages/flask/app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/cj_laptop/microblog/venv/lib/python3.9/site-packages/flask/app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/cj_laptop/microblog/venv/lib/python3.9/site-packages/flask/app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/cj_laptop/microblog/venv/lib/python3.9/site-packages/flask_login/utils.py", line 279, in decorated_view
+    return func(*args, **kwargs)
+  File "/home/cj_laptop/microblog/app/routes.py", line 88, in edit_profile
+    form = EditProfileForm(current_user.username)
+  File "/home/cj_laptop/microblog/venv/lib/python3.9/site-packages/wtforms/form.py", line 208, in __call__
+    return type.__call__(cls, *args, **kwargs)
+  File "/home/cj_laptop/microblog/app/forms.py", line 39, in __init__
+    super(EditProfileForm, self).__init(*args, **kwargs)
+AttributeError: 'super' object has no attribute '_EditProfileForm__init'
+Microblog startup
