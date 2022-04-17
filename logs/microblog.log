@@ -64,3 +64,6 @@ Traceback (most recent call last):
     super(EditProfileForm, self).__init(*args, **kwargs)
 AttributeError: 'super' object has no attribute '_EditProfileForm__init'
 Microblog startup
+Microblog startup
+Microblog startup
+Microblog startup
